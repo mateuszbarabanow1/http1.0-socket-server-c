@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Reti di Calcolatori</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            color: #002244;
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .contenitore {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 32px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 24px;
+            font-size: 1.6em;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0 0 16px 0;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenitore">
+        <h1>Progetto di Reti di Calcolatori - Mateusz Barabanow</h1>
+        <p>
+            Benvenuto nel server web HTTP/1.0 concorrente implementato in linguaggio C
+            con le Socket API POSIX e la libreria <code>pthread</code>.
+        </p>
+        <p>Caratteristiche principali del progetto:</p>
+        <ul>
+            <li>Architettura multithreaded con un thread dedicato per ogni connessione</li>
+            <li>Gestione sicura delle richieste GET con parsing thread-safe</li>
+            <li>Protezione contro directory traversal e invio parziale dei dati</li>
+            <li>Pagine HTML minimali servite dalla directory locale del server</li>
+        </ul>
+        <p>
+            Il server e' in ascolto sulla porta 8080 e utilizza il protocollo HTTP/1.0.
+        </p>
+    </div>
+</body>
+</html>
