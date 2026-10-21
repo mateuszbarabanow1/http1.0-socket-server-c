@@ -125,4 +125,3 @@ The biggest scalability limitation comes from the threading model itself. Creati
 
 Author: Mateusz Barabanow
 
-This project was developed as coursework for the Computer Networks course in the Bachelor's degree in Computer Security and Network Systems at Università degli Studi di Milano, taught by Claudio Ardagna and Ernesto Damiani. It was evaluated with a grade of 27 out of 30.
